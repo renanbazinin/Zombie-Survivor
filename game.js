@@ -372,10 +372,10 @@ class Player extends Entity {
                 rotation = Math.PI; // 180 degrees
                 break;
             case 'right':
-                rotation = Math.PI / 2; // 90 degrees
+                rotation = -Math.PI / 2; // -90 degrees
                 break;
             case 'left':
-                rotation = -Math.PI / 2; // -90 degrees
+                rotation = Math.PI / 2; // 90 degrees
                 break;
         }
         
