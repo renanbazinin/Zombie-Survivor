@@ -1,0 +1,19 @@
+{
+  "name": "zombie-survivor",
+  "version": "0.1.0",
+  "description": "Top-down zombie survival game with auto-firing weapons",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "npx http-server -p 8080 -c-1"
+  },
+  "keywords": ["game", "zombie", "survivor"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+
+
